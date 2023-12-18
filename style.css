@@ -1,0 +1,319 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@300&family=Libre+Baskerville:ital@0.1&family=Poppins&family=Roboto&display=swap');
+
+/* Body Styling */
+body {
+    /* Comment here */
+    color: white;
+    background-image: url("assets/Title-Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000000;
+    height: 250vh;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+/* Main Bar Styling */
+ #Top-Main-Bar {
+     display: flex;
+}
+ #leftelements {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     width: 480px;
+     margin-left: 25px;
+     font-weight: 500;
+     font-family: 'Nunito Sans', sans-serif;
+     gap: 30px;
+}
+ #rightelements {
+     display: flex;
+     justify-content: space-around;
+     width: 190px;
+     margin-left: 750px;
+     align-items: center;
+     gap: 30px;
+}
+ .righticon {
+     width: 20px;
+     height: 20px;
+}
+ .ironmanicon {
+     width: 35px;
+     height: 35px;
+}
+ #netflixicon {
+     width: 90px;
+     height: 25px;
+}
+ .bgtexts {
+     margin-top: 355px;
+}
+/* On Image Styling */
+ .NSHOW {
+     display: flex;
+     align-items: center;
+     margin-top: 310px;
+     margin-left: 52px;
+     justify-content: space-around;
+     width: 110px;
+}
+ .NSHOW > p {
+     font-weight: bold;
+     letter-spacing: 5.5px;
+}
+ .netflixsymbol {
+     width: 18px;
+     height: 32px;
+}
+ .MAID {
+     font-size: 142px;
+     font-weight: bold;
+     margin-top: -15px;
+     margin-left: 50px;
+}
+/* Buttons on Image */
+ .buttons {
+     display: flex;
+     justify-content: space-around;
+     width: 250px;
+     margin-top: -150px;
+     margin-left: 50px;
+}
+ .playicon {
+     width: 15px;
+}
+ .play {
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     align-items: center;
+     width: 88px;
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: 1px solid white;
+     background-color: white;
+     font-weight: bold;
+}
+ .info {
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 120px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(175, 175, 175);
+     color: white;
+     font-weight: bold;
+     opacity: 0.8;
+}
+ .infoicon {
+     width: 20px;
+}
+/* Text Before Movie */
+ .pretextmovies {
+     display: flex;
+     align-items: center;
+     margin-left: 60px;
+     font-weight: 600;
+     font-size: 20px;
+     letter-spacing: 1.5px;
+     margin-top: 50px;
+}
+ .pretextmovies > img {
+     height: 15px;
+     width: 20px;
+     margin-top: 5px;
+     margin-left: 10px;
+}
+ .add {
+     margin-left: 1460px;
+}
+/* Movies 1st Stack */
+ .badge {
+     margin-left: 296px;
+     position: absolute;
+}
+ #movies {
+     margin-left: 50px;
+     display: flex;
+     justify-content: space-around;
+     width: 1400px;
+}
+/* Movies 2nd Stack */
+ .headersecondstack {
+     display: flex;
+     align-items: center;
+     font-weight: bold;
+     margin-left: 60px;
+     font-size: 20px;
+     margin-top: 40px;
+}
+ .headersecondstack > img {
+     height: 15px;
+     width: 20px;
+     margin-left: 10px;
+     margin-top: 5px;
+}
+ .moviestack {
+     height: 195px;
+}
+ .rank {
+     position: relative;
+     top: 4px;
+     left: 3px;
+}
+/* Third and Fourth Stack */
+ .headerthirdstack {
+     display: flex;
+     align-items: center;
+     font-weight: bold;
+     margin-left: 60px;
+     font-size: 20px;
+     margin-top: 40px;
+}
+ .headerthirdstack > img {
+     height: 15px;
+     width: 20px;
+     margin-top: 5px;
+     margin-left: 10px;
+}
+/* Footer Styling */
+ .socialicons {
+     display: flex;
+     justify-content: space-evenly;
+     width: 210px;
+     margin-left: 280px;
+     margin-top: 60px;
+}
+ .column {
+     color: #6f6f6f;
+}
+ .mainfootercontent {
+     display: flex;
+     justify-content: center;
+}
+ .footercontent {
+     display: flex;
+     justify-content: space-around;
+     width: 1020px;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+}
+ .firstcolumn > button {
+     background-color: #000000;
+     color: #6f6f6f;
+     border: 1px solid #6f6f6f;
+     width: 100px;
+     height: 40px;
+}
+ .end {
+     margin-left: 300px;
+     font-size: 12px;
+     color: #6f6f6f;
+}
+@media screen and (max-width: 768px) {
+    #leftelements {
+        font-size: 16px;
+        gap: 10px;
+   }
+    #rightelements {
+        gap: 10px;
+   }
+    .MAID {
+        font-size: 100px;
+   }
+}
+/* On Image Styling */
+.NSHOW {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 100%;
+}
+/* Adjusting font sizes and margins for smaller screens */
+@media screen and (max-width: 768px) {
+    .NSHOW > p {
+        font-size: 14px;
+   }
+}
+/* Buttons on Image */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+/* Adjusting button sizes for smaller screens */
+@media screen and (max-width: 768px) {
+    .playicon {
+        width: 12px;
+   }
+}
+/* Text Before Movie */
+.pretextmovies {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* Adjusting font sizes for smaller screens */
+@media screen and (max-width: 768px) {
+    .pretextmovies {
+        font-size: 14px;
+   }
+}
+.add {
+    margin-left: 15px;
+}
+/* Movies 1st Stack */
+.badge {
+    position: absolute;
+}
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+/* Adjusting margin for smaller screens */
+@media screen and (max-width: 768px) {
+    #movies {
+        margin-left: 15px;
+   }
+}
+/* Footer Styling */
+.socialicons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+/* Adjusting margin and padding for smaller screens */
+@media screen and (max-width: 768px) {
+    .socialicons {
+        margin-left: 5px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+    .headerthirdstack {
+        font-size: 16px; 
+        margin-left: 15px; 
+    }
+    .headerthirdstack > img {
+        height: 12px; 
+        width: 16px; 
+        margin-left: 8px; 
+        display: block;
+        margin-top: 5px; 
+    }
+}
